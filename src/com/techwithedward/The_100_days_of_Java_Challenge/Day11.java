@@ -8,20 +8,18 @@ package com.techwithedward.The_100_days_of_Java_Challenge;
  * Constraints:
  * Input must be an integer.
  * Numbers ≤ 1 are not prime.
- *
  * Logic ( thinking process)
  *      number less than or equal to 1`n not prime
  *      try dividing the number by values from 2 up to n-1
  *      if any division gives remainder 0 `n not prime
  *      if no divide evenly n` prime
- *
  * Pseudocode
  *      START
  *      INPUT Number
  *      IF Number <= 1
  *          PRINT "Not prime"
  *          STOP
- *      ENDIF
+ *      END IF
  *
  *      SET isPrime = true
  *
@@ -29,14 +27,14 @@ package com.techwithedward.The_100_days_of_Java_Challenge;
  *          IF Number MOD i == 0
  *              SET isPrime = false
  *              BREAK
- *          ENDIF
- *     ENDFOR
+ *          END IF
+ *     END FOR
  *
  *     IF isPrime == false
  *          PRINT "prime number"
  *     ELSE
  *          PRINT "not prime"
- *     ENDIF
+ *     END IF
  *     END
  */
 
