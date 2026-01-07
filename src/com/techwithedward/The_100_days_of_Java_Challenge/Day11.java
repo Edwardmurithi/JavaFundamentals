@@ -40,7 +40,7 @@ package com.techwithedward.The_100_days_of_Java_Challenge;
 
 public class Day11 {
     static void main() {
-        int num = 7;
+        int num = 29;
         evaluatePrime(num);
 
     }
